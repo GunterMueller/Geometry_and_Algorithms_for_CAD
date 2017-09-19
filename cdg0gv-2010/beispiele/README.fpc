@@ -1,0 +1,16 @@
+Installationschritte:
+
+1. "make" ausfuehren
+   erzeugt 
+   a) die notwendigen units in Dir UNITS und
+   b) pldv in TOOLS 
+
+2. Compilieren des Programms n_eck.p:  "make n_eck"
+   Ausfuehren von n_eck: "n_eck"
+
+3. "make clean" loescht .o Dateien und n_eck und tori_h
+4. "make cleanall" loescht 
+    a) ALLE .o-Dateien und 
+    b) .o- und .ppu-Dateien in UNITS
+    c) pldv in TOOLS 
+

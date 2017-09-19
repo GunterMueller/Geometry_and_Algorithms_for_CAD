@@ -1,0 +1,7 @@
+
+%%%% Type the following command 
+%%%% (file triblend.pp has to be provided by triblend_pov !).
+
+ povray +L/usr/lib/povray31/include +Itriblend.pov +Otriblend.tga +W600 +H400 +FT
+
+%%%% File triblend.tga can be displayed by xv. 
